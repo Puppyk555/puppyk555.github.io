@@ -300,7 +300,7 @@ h1, h2, h3 {
   display: grid;
   grid-template-columns: 16rem 1fr;
   align-items: stretch;
-  height: 250px;
+  height: 300px;
 }
 
 @media (max-width: 700px) {
