@@ -324,12 +324,26 @@ h1, h2, h3 {
   }
 }
 
-.lead-thumb img {
+.gif-side-left {
+  float: left;
+  width: 180px;
+  margin: 0 1.5rem 1rem -220px;
+  
+}
+
+.gif-side-right {
+  float: right;
+  width: 180px;
+  margin: 0 -220px 1rem 1.5rem;
+ 
+}
+
+.gif-side-left img,
+.gif-side-right img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
   display: block;
 }
+
 
 .lead-text {
   padding: 1.4rem 1.6rem;
