@@ -1,6 +1,17 @@
 /* ============================================
    DESIGN TOKENS
    ============================================ */
+
+
+  /* 1. The default cursor for the entire website */
+html {
+  cursor: url('images/cursor.png'), auto;
+}
+
+/* 2. The cursor that appears ONLY when hovering over buttons or links */
+button, a, input[type="button"], .clickable-element {
+  cursor: url('images/cursor_hover.png'), pointer;
+}
 :root {
   --bg-deep: #160f24;
   --bg-panel: #201634;
